@@ -1,0 +1,63 @@
+{"intents": [
+    {"tag": "saudacao",
+        "patterns": ["Ola!!", "Como voce esta?", "Tem alguem aí?","Oi","Oie", "Alo"],
+        "responses": ["Ola!!, obrigado por perguntar.", "Que bom ver voce novamente.","Ola, como posso ajudar?"]
+    },
+    {"tag": "despedida",
+        "patterns": ["Tchau", "Nos vemos depois", "Adeus", "Foi bom falar com voce, tchau","Ate a proxima"],
+        "responses": ["Nos vemos!", "Tenha um otimo dia", "Tchau! Volte logo."] 
+    },
+    {"tag": "agradecimento",
+        "patterns": ["Obrigado!", "Muito obrigado.", "Isso foi util", "Maravilha, obrigado!", "Obrigado por me ajudar!"],
+        "responses": ["Fico feliz em ajudar!", "Sempre que precisar", "Foi um prazer."]
+    },
+    {"tag": "sem_resposta",
+        "patterns": [""],
+        "responses": ["Desculpe, nao consegui entender voce.", "Por favor de-me mais informacoes.", "Acho que nao entendi."]
+    },
+    {"tag": "opcoes",
+     "patterns": ["Como voce poderia me ajudar?", "Que ajuda voce oferece?", "Como voce pode ser util?"],
+     "responses": ["Posso mostrar a voce alguns aparelhos eletronicos mais recentes" , 
+                   "Eu posso lhe mostrar alguns smartphones muito legais" , 
+                   "Por que eu nao lhe mostro alguns fones de ouvido incriveis?" , 
+                   "Quer conferir alguns videogames?" , "Que tal algumas cameras digitais legais?"]
+ 
+    },
+    {"tag": "produtos",
+        "patterns": ["Voce pode me mostrar todos os seus produtos?", "Quais sao todos os produtos que voce tem?" , 
+                    "O que voce esta vendendo?"],
+        "responses": ["Sim, eu tenho uma grande variedade de Smartphones, Cameras Digitais, Fones de Ouvido e Videogames"]
+    
+    },
+    {"tag": "smartphone",
+        "patterns": ["Qual e o telefone mais popular?", "Qual e o smartphone mais atual?" , 
+                    "Qual e o melhor telefone"],
+        "responses": ["O iPhone 12 e o telefone mais popular" , "O Samsung Galaxy Z e o telefone mais atual" , 
+                    "O OnePlus 9 e o telefone mais recente"]
+    
+    },
+    {"tag": "camera",
+        "patterns": ["Qual e a camera digital mais popular?", "Qual e a camera mais atual?" , 
+                    "Qual e a melhor camera?"],
+        "responses": ["A Canon EOS e a camera mais popular. Confira!", 
+                    "O Panasonic LUMIX e o que voce procura!"]
+    
+    },
+    {"tag": "fone_de_ouvido",
+        "patterns": ["Qual e o fone de ouvido mais popular?", "Qual e o fone de ouvido bluetooth mais atual?" , 
+                    "Qual e o melhor fone de ouvido?"],
+        "responses": ["Eu amo fones de ouvido da BOAT, voce deveria experimenta-los" , 
+                    "O Skull Candy tem uma colecao muito legal, confira!" , 
+                    "O Sennheiser e a marca mais quente do momento, confira!"]
+    
+    },
+    {"tag": "videogame",
+        "patterns": ["Qual e o videogame mais atual?", "Por favor, me diga qual e o vídeogame mais recente!" , 
+                    "Voce tem algum videogame legal?"],
+        "responses": ["Eu considero CALL OF DUTY como um dos meus favoritos de todos os tempos" , 
+                    "Se voce gosta de aventura, deveria experimentar o GTA-VICE CITY"]
+    
+    }
+]
+}
+
