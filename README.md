@@ -1,1 +1,2 @@
-# Um modelo de Treinamento de Ia, ou seja um chat bot que analisa frases pre definidas em um "banco de Informações" e retorna os valores dessas frases em numeros binarios para implementação futura de combinações aleatorias de fala e resposta do robo.
+# Um modelo de Treinamento de IA. 
+ou seja um chat bot que analisa frases pre definidas em um "banco de Informações" e retorna os valores dessas frases em numeros binarios para implementação futura de combinações aleatorias de fala e resposta do robo.
